@@ -1,0 +1,10 @@
+.bg-red{
+    background-color: rgb(237, 116, 116);
+    opacity: .8;
+}
+.bg-p2{
+    padding: 2em;
+}
+.red{
+    color:red;
+}

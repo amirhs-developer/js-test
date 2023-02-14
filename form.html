@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <div id="main">
+
+        <form action="https://google.com" method="get">
+            <input type="text" name="userName" id="username">
+            <input type="color" name="colorTheme" id="colorTheme">
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+
+        <form action="https://google.com" method="get">
+            <label for="day">Day </label> <input type="text" id="day" /> <span class="red"></span> <br />
+            <label for="month">Month </label> <input type="text" id="month" /> <span class="red"></span> <br /> <br/>
+            <label>Text Input</label> <input type="text" id="text" name="text"/> <span class="red"></span> <br/> <br/>
+            <label for="check">checkBox </label> <input type="checkbox" name="check" id="checkbox" /><br /> <br/>
+            <label for="textarea">TextArea</label> <textarea name="textarea" id="textarea"></textarea> <span class="red"></span> <br/> <br/>
+            <label for="select">Select</label>
+            <select name="select" id="select">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+            <span class="red"></span>
+        </form>
+
+        <form action="">
+            <label for="tInput">Text: </label><input type="text" name="tInput" id="tInput"> <br/>
+            <input type="button" value="Button"/>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </form>
+    </div>
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>

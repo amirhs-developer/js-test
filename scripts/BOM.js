@@ -6,6 +6,12 @@ console.log('php');
 console.log('node.js');
 
 
+function getDate(){
+    return Date.now();
+}
+
+
+
 
 
 

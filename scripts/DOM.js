@@ -119,8 +119,6 @@ document.head.innerHTML+=`
 
 
 
-
-
 //? CSS Styles in Js 
 
 ul = document.querySelector('ul');

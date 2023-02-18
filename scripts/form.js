@@ -73,7 +73,6 @@ function handle(event){
 }
 
 
-
 // form_1.addEventListener('submit',x);
 // form_1.addEventListener('reset',y);
 // form_1.reset()

@@ -52,8 +52,6 @@ document.addEventListener('afterprint', () => {
 
 //? setTimeout and clearTimeOut
 //? setInterval and clearInterval
-
-
 let set = document.getElementById('set');
 let clear = document.getElementById('clear');
 let timer;
@@ -66,6 +64,15 @@ set.addEventListener('click', () => {
 clear.addEventListener('click', () => {
     clearInterval(timer);
 })
+
+//? RequestAnimationFrame() and setInterval() for animation in js 
+
+requestAnimationFrame(met);
+const met = () => { 
+    //codes 
+    requestAnimationFrame(met);
+}
+
 
 
 
